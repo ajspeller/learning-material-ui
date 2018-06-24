@@ -30,11 +30,11 @@ class CourseList extends Component {
         content_type: 'courses',
         query: this.state.searchSting
       })
-      .then(res => {
+      .then(res =>
         this.setState({
           courses: res.items
-        });
-      })
+        })
+      )
       .catch(err => {
         console.log('Error occured while fetching data');
         console.log(err);
