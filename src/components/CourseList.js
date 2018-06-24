@@ -8,7 +8,7 @@ const SPACE_ID = 'b4tx9el1ck0p';
 const ACCESS_TOKEN =
   'be454056a64b6027cb80275ec792d557fa147b21c14f6484499fccbfd27cb892';
 
-const client = contenful.createClient({
+const client = contentful.createClient({
   space: SPACE_ID,
   accessToken: ACCESS_TOKEN
 });
